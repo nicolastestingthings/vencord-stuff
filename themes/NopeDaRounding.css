@@ -1,0 +1,61 @@
+@import url("https://minidiscordthemes.github.io/Squared/Squared.theme.css");
+
+[class*="avatarDecoration"],
+[class*="avatarEffect"],
+[class*="avatarGlow"] {
+    display: none !important;
+}
+
+[class*="avatar_"] {
+    animation: none !important;
+    transition: none !important;
+    filter: none !important;
+    transform: none !important;
+}
+
+:root {
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 4px;
+    --rs-large-spacing: 6px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 5px;
+    --rs-large-width: 6px;
+    --rs-avatar-shape: 0%;
+}
+
+@font-face {
+    font-family: "Minecraft Seven";
+    src: url("https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/fonts/Minecraft-Seven_v2.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-primary: "Minecraft Seven";
+    --font-display: "Minecraft Seven";
+    --font-headline: "Minecraft Seven";
+    --font-code: "Minecraft Seven";
+}
+
+body {
+    letter-spacing: 0 !important;
+    -webkit-font-smoothing: none !important;
+    text-rendering: geometricPrecision !important;
+}
+
+*,
+*::before,
+*::after {
+    border-radius: 0 !important;
+}
+
+:root {
+    --radius-xs: 0px !important;
+    --radius-sm: 0px !important;
+    --radius-md: 0px !important;
+    --radius-lg: 0px !important;
+    --radius-xl: 0px !important;
+    --radius-round: 0px !important;
+    --squared-radius: 0px !important;
+}
