@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "DOORS";
+    src: url("https://raw.githubusercontent.com/nicolastestingthings/vencord-stuff/main/fonts/Doors-Regular.otf") format("opentype");
+}
+
+:root {
+    --font-primary: "DOORS";
+    --font-display: "DOORS";
+    --font-headline: "DOORS";
+}
