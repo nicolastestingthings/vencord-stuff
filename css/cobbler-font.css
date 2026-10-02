@@ -1,1 +1,10 @@
+@font-face {
+    font-family: "Cobblish";
+    src: url("https://raw.githubusercontent.com/nicolastestingthings/vencord-stuff/main/fonts/Cobblish-Regular.otf") format("opentype");
+}
 
+:root {
+    --font-primary: "Cobblish";
+    --font-display: "Cobblish";
+    --font-headline: "Cobblish";
+}
